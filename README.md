@@ -44,7 +44,7 @@ Welcome to the Canopy Network reference implementation. This repository can be w
 - [Finite State Machine (FSM)](fsm/README.md): Defines the logic for how transactions change the blockchain's state — it decides what’s valid and how state transitions happen from one block to the next.
 - [Byzantine Fault Tolerant (BFT) Consensus](bft/README.md): A consensus mechanism that allows the network to agree on new blocks even if some nodes are unreliable or malicious.
 - [Peer-to-Peer Networking](p2p/README.md): A secure and encrypted communication system that lets nodes talk directly to each other without needing a central server.
-- [Persistence](store/README.md): Manages the blockchain’s storage — it saves the current state (ledger), indexes past transactions, and ensures fast and reliable data verification.
+- [Persistence](store/README.md): Manages the blockchain’s storage — it saves the current state (ledger),indexes past transactions, and ensures fast and reliable data verification.
 
 ## How to Run It
 
